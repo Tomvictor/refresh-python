@@ -6,7 +6,12 @@ def main():
         "key2" : "value 2"
     }
     print(_dict)
-    print(_dict.keys())
+    keys = _dict.keys()
+    print(keys)
+    print(type(keys))
+    for k in keys:
+        print(k)
+    print(_dict.values())
     _tup = (1,2,3,4)
     print(_tup)
     print(type(_tup))
